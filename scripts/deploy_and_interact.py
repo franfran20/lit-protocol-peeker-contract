@@ -14,7 +14,7 @@ def verify(contractAddress):
     Peek.publish_source(peek_contract)
 
 def main():
-    account = accounts.load("francis-test")
+    account = accounts.load("your-id")
     deploy(account)
     # verify("0x6FcD37eCDdb8B7B6A10B8174FfBcaD0f1332A78f")
     
